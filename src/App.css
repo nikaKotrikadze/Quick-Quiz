@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  margin: 0;
+}
+
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(73, 182, 255);
+}
+
+.container {
+  min-width: 600px;
+  width: auto;
+  height: 350px;
+  background-color: rgb(0, 89, 148);
+  box-shadow: 4px 4px 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+
+.quest-answer-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.quest-answer-btns > button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: rgb(62, 171, 221);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.quest-answer-btns > button:hover{
+  background-color: rgb(48, 151, 199);
+}
+
+.small-span {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.Show-Score{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  justify-content: center;
+  align-items: center;
+}
+.play-again{
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(62, 171, 221);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.play-again:hover{
+  background-color: rgb(48, 151, 199);
+}
